@@ -1,0 +1,10 @@
+{
+    "server": {
+      "prefix": "/api"
+    },
+    "info": {
+      "version": "0.0.1",
+      "title": "Travel Finder API",
+      "releaseDate": "2019-01-23T00:00:00.000Z"
+    }
+  }
