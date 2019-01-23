@@ -6,3 +6,4 @@ node_modules/
 
 # local environment variables file
 .env
+.DS_Store
