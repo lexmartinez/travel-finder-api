@@ -36,6 +36,15 @@ After you have installed all dependencies you can now start developing with:
 
 > To run the API in production mode you should run the command `yarn start`
 
-### Deployment
+### Usage
 
- ....
+```
+ENDPOINT: /api/cities/search?country=CO
+
+BODY: {
+        "lat": "6.25184",
+        "lng": "-75.56359",
+        "time": 3,
+        "apiKey": "Your Distance Matrix API Key"
+    }
+```
