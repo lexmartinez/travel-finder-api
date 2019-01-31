@@ -8,7 +8,7 @@
     "dev": "export NODE_ENV=development && nodemon --exec babel-node src",
     "test": "export NODE_ENV=development && ./node_modules/.bin/mocha --recursive ./test/**/*.spec.js --reporter spec --require babel-core/register",
     "lint": "./node_modules/.bin/eslint src/**",
-    "build": "echo \"Error: no build specified\" && exit 1"
+    "build": "babel src --out-dir dist"
   },
   "repository": {
     "type": "git",

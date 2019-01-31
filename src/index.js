@@ -1,3 +1,4 @@
+import 'babel-polyfill'
 import Server from './core/server'
 import logger from './core/logger'
 import { routes } from './routes'
