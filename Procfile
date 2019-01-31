@@ -1,1 +1,1 @@
-web: export NODE_ENV=production && npm run build && node dist/index.js
+web: export NODE_ENV=production && node dist/index.js
