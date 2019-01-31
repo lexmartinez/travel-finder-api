@@ -39,7 +39,7 @@ After you have installed all dependencies you can now start developing with:
 ### Usage
 
 ```
-ENDPOINT: /api/cities/search?country=CO
+ENDPOINT: https://travel-finder-api.herokuapp.com/api/cities/search?country=CO
 
 BODY: {
         "lat": "6.25184",
